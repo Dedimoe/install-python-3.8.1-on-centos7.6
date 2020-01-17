@@ -10,6 +10,7 @@ cd Python-3.8.1
 sudo ./configure --enable-optimizations
 sudo make altinstall
 #--note: altinstall is used to prevent replacing the default python binary file /usr/bin/python
+cd /opt
 sudo rm Python-3.8.1.tgz
 python3.8 -V
 ```
